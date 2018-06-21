@@ -1,0 +1,17 @@
+/build
+/BuildProcessTemplates
+/contracts/test
+/ps
+/test
+/node_modules
+npm-debug.log
+/coverage
+coverage.json
+.vscode/*
+coverage.json
+.soliumignore
+.soliumrc.json
+circle.yml
+*.bak
+*.zip
+*.secret

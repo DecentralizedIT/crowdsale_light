@@ -85,7 +85,7 @@ interface ICrowdsale {
 
 
     /**
-     * Returns the rate and bonus release date
+     * Returns the rate
      *
      * @param _phase The phase to use while determining the rate
      * @param _volume The amount wei used to determine what volume multiplier to use

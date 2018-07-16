@@ -1,6 +1,34 @@
-# Welcome to the crowdsale and token repository
+# Welcome to the generic crowdsale (light) and token repository
 
-Generic Crowdsale
+## Simple Summary
+This generic crowdsale contains three different components.
+
+The first (Token) is a standard component for ERC-20 compatible tokens that
+allows for the implementation of a standard API for tokens within smart
+contracts and provides basic functionality to transfer tokens, as well as
+allow tokens to be approved so they can be spent by another on-chain third
+party.
+
+The second (ManagedToken) is a specialized component that adds adds additional 
+functionalities to the ERC-20 token contract that allows the token to be managed 
+after it has been published. This enables the owner(s) of the ERC-20 token contract 
+to lock tokens, issue additional tokens or burn tokens after the token has been 
+published. Only the addresses in the list of owners can choose to execute these 
+functions and these owners are only be able to execute these functions under certain
+conditions that are decided upon ahead of time.
+
+The third (Crowdsale) is a specialized component to manage the
+crowdsale of an ERC-20 token on the Ethereum blockchain. This component can
+be used by any venture (also non-crypto related ventures) to raise funds in
+a decentralized manner on the Ethereum blockchain.
+
+The combination of these three components can for be used to let the crowdsale 
+contract manage the token contract. Then, the crowdsale contract is the only one 
+that is able to unlock, issue or burn tokens. It could be decided that the token 
+will remain locked until the crowdsale has been completed successfully. Only when the
+crowdsale has been completed successfully, can the crowdsale contract unlock the token. 
+It is up to the initiator of the crowdsale contract to decide if the crowdsale 
+contract will be owned by one or multiple parties.
 
 ## Preparing development environment
 
@@ -40,6 +68,7 @@ Style](https://standardjs.com/) is used. There are several
 widely-used editors. These also support automatic fixing. This linter is run
 automatically by Continuous Integration.
 
-## Development
+## Credits
 
-Crowdsale and token developed by [Frank Bonnet](https://www.linkedin.com/in/frank-bonnet-3b890865/)
+Developped by [Frank Bonnet](https://www.linkedin.com/in/frank-bonnet-3b890865/) Software engineer
+Documented by [Mark Reuvers](https://www.linkedin.com/in/mark-reuvers/) 

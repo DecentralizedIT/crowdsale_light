@@ -1,6 +1,6 @@
-# Welcome to the generic crowdsale (light) and token repository
+# Generic crowdsale (light) and token repository
 
-## Simple Summary
+### Simple Summary
 This generic crowdsale contains three different components.
 
 The first (Token) is a standard component for ERC-20 compatible tokens that

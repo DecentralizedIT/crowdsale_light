@@ -70,5 +70,5 @@ automatically by Continuous Integration.
 
 ## Credits
 
-Developped by [Frank Bonnet](https://www.linkedin.com/in/frank-bonnet-3b890865/) Software engineer
-Documented by [Mark Reuvers](https://www.linkedin.com/in/mark-reuvers/) 
+[Frank Bonnet](https://www.linkedin.com/in/frank-bonnet-3b890865/) Software engineer  
+[Mark Reuvers](https://www.linkedin.com/in/mark-reuvers/)  
